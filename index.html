@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TV</title>
+        <style>
+            body {
+                background-color: #000;
+                color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="player" style="pointer-events:none;"></div>
+        <div class="channel-selector">
+            <div>
+                <input type="radio" id="channel-1" name="channel" value="1" checked="true" />
+                <label for="channel-1">1</label>
+            </div>
+            <div>
+                <input type="radio" id="channel-2" name="channel" value="2"/>
+                <label for="channel-2">2</label>
+            </div>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
